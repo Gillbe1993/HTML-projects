@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>Contact Us</title>
+
+	<link rel="stylesheet" type="text/css" href="../../css/css01/navbar.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/css03/style3.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/css01/clock.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/css01/form.css"/>
+
+	<script src="../../js/clock.js"></script>
+	<script src="../../js/contact.js"></script>
+
+</head>
+
+
+<body>
+
+	<div id="clockDisplay" class="clockStyle"></div>
+
+	<div class="header">
+
+		<h1>Bilal's Recipes</h1>
+
+	</div>
+
+	<div class="nav">
+
+		 <ul>
+  			<li><a href="../index.html">Home</a></li>
+  			<li><a href="../news/index.html">News</a></li>
+  			<li class="active"><a href="#contact">Contact Us</a></li>
+  			<li><a href="../about/index.html">About Us</a></li>
+			<li><a href="../recipes/index.html">Recipes</a></li>
+		</ul> 
+	
+	</div>
+
+	<div class="content">
+		
+		<h3 align="center">Contact Us</h3>
+
+		<br/>
+
+		<div id="form" class="forms">
+		
+			<form name="contact" id="contact" method="post" onsubmit="return redirect()">
+	
+				Name * <br/>
+				<input type="text" name="firstname" required></input>
+				
+				<br/><br/><br/>
+
+				Email * <br/> 
+				<input type="email" name="email" required></input>
+				
+				<br/><br/><br/>
+
+				Phone * <br/>
+				<input type="text" name="phone" required></input>
+				
+				<br/><br/><br/>						
+
+				Message * <br/>
+				<textarea rows="10" cols="40" name="message" required></textarea>
+							
+				<br/><br/><br/>
+
+				<div class="buttonHolder">
+					<button type="submit" class="submitButton">Submit</button>
+					<button type="reset" class="resetButton">Reset</button>
+				</div>
+			</div>	
+		</form>
+
+	</div>
+
+
+</body>
+
+</html>

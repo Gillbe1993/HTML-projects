@@ -1,0 +1,35 @@
+body
+{
+	background-image: url("../../img/contact1.jpg");
+	background-size:1500px;
+	background-repeat: no-repeat;
+	background-position:
+	margin: 100px 100px 100px 100px;
+	border-style: solid rgba(0,0,0,0.0);
+	height: absolute;
+}
+
+
+.content
+{
+	margin: 70px 200px 150px 200px;
+	text-align: justify;
+	border-style: solid;
+	border: 100px 00px 0px 00px;
+}
+
+
+.header
+{
+	font-style: italic;
+	text-align: right;
+}
+
+
+.para
+{
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}

@@ -1,0 +1,111 @@
+
+.stain
+{
+	position: absolute;
+	top: 1cm;
+	left: 12cm;
+	z-index: -1;
+}
+
+
+.forms
+{
+	width: absolute;
+	min-width: 30em;
+	max-width: 40em;
+	font-family: "Arial";
+	color: black;
+	padding: 8px 8px 8px 8px;
+	margin: 00px 00px 00px 250px;
+}
+
+
+.buttonHolder
+{ 
+	text-align: center;
+	 
+}
+
+
+.submitButton
+{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	margin: 4px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: white black black white;
+	font-family: "Arial";
+}
+
+
+.resetButton
+{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	margin: 4px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: white black black white;
+	font-family: "Arial";
+}
+
+
+.submitButton:active
+{
+	border-color: black white white black;
+}
+
+
+.resetButton:active
+{
+	border-color: black white white black;
+}
+
+
+#form img
+{
+	vertical-align: middle;
+}
+
+
+input
+{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	margin: 4px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: white black black white;
+	font-family: "Arial";
+}
+
+
+input:focus
+{
+	border-color: yellow;
+}
+
+
+input:hover
+{
+	border-top-color: yellow;
+	border-left-color: yellow;
+}
+
+
+textarea
+{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	margin: 4px;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: white black black white;
+	font-family: "Arial";
+	line-height: 150%;
+}

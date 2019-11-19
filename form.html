@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>CSS on Forms</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<body>
+
+	<div id="form" class="forms">
+		<form>
+	
+			<img src="css/img/stain.png" class="stain" alt="sad face"/>			
+
+			<fieldset class="field1">
+				<legend class="pi">Personal Information</legend>
+		
+				Name:
+				<input type="text" name="firstname" value="First" onfocus="if (this.value=='First') this.value='';"/>  <img src="css/img/sad.png" alt="sad face"/> 
+				<input type="text" name="lastname" value="Last" onfocus="if (this.value=='Last') this.value='';"/>  <img src="css/img/sad.png" alt="sad face"/>  
+
+				<br/> <br/>
+		
+				Address:
+				<input type="text" name="add" value="Address 1" onfocus="if (this.value=='Address 1') this.value='';"/>  <img src="css/img/sad.png" alt="sad face"/>  
+
+				<br/> <br/>
+
+				City:
+				<input type="text" name="city" value="Address 2" onfocus="if (this.value=='Address 2') this.value='';"/>  <img src="css/img/sad.png" alt="sad face"/>  
+
+				<br/> <br/>
+
+				State/Province:
+				<select name="state">
+					<option value="Choose">Choose</option>
+
+					<optgroup label="USA">
+						<option value="...">...</option>
+    						<option value="North Carolina (NC)">North Carolina (NC)</option>
+						<option value="Virginia (VA)">Virginia (VA)</option>
+					</optgroup>
+
+					<optgroup label="Canada">
+    						<option value="...">...</option>
+    						<option value="Manitoba">Manitoba</option>
+					</optgroup>
+  		
+				</select>  <img src="css/img/sad.png" alt="sad face"/>
+		
+				<br/> <br/>
+
+				ZIP/Postal Code:
+				<input type="text" name="zip"/>  <img src="css/img/sad.png" alt="sad face"/>  
+		
+				<br/> <br/>
+
+				Phone:
+				<input type="text" name="phone"/>  <img src="css/img/sad.png" alt="sad face"/>  
+		
+			</fieldset>
+
+			<br/> <br/>
+
+			<fieldset class="field2">
+				Subscribe to our Mailing List?
+					<input type="radio" name="mail" value="yes" checked="checked">Yes</input>
+					<input type="radio" name="mail" value="no">No</input>
+			</fieldset>
+		
+			<br/> <br/>
+
+
+			<fieldset class="field3">
+				<legend class="mls">Mailing List Subscriptions</legend>
+		
+				<input type="checkbox" name="mail_list" value="Corporate Press Release Emails">&ensp; Corporate Press Release Emails</input>  <br/>
+				<input type="checkbox" name="mail_list" value="Upgrade Software Advertising List">&ensp; Upgrade Software Advertising List</input>  <br>
+				<input type="checkbox" name="mail_list" value="List given to spamers after buyout">&ensp; List given to spamers after buyout</input>  <br>
+				<input type="checkbox" name="mail_list" value="The only non-cynical list">&ensp; The only non-cynical list</input>  <br>
+				<input type="checkbox" name="mail_list" value="List to sell to spamers">&ensp; List to sell to spamers</input>  <br>
+				<input type="checkbox" name="mail_list" value="Spam List">&ensp; Spam List</input>
+	
+			</fieldset>
+		
+			<br/>
+
+			<div class="buttonHolder">
+				<button type="submit" class="submitButton">Submit</button>
+				<button type="reset" class="resetButton">Reset</button>
+			</div>
+		</div>	
+	</form>
+
+</body>
+</html>
+

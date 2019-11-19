@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>WebStorage</title>
+
+</head>
+
+<body>
+
+	<form id="web" action="result.html" method="get">
+	
+		First Name:<br>
+  		<input type="text" id="fname" name="firstname">
+  		<br>
+
+		Last Name:<br>
+  		<input type="text" id="lname" name="lastname">
+  		<br><br>
+  
+		<input type="submit" value="Submit">
+	</form>
+
+	<script type="text/javascript">
+
+    		window.onload = function()
+		{
+			document.getElementById('web').addEventListener('submit', function()
+			{
+				var fName = document.getElementById('fname').value;
+				var lName = document.getElementById('lname').value;
+
+				localStorage.setItem('fname', fName);
+				localStorage.setItem('lname', lName);
+			});
+		}
+    			
+	</script>
+ 
+</body>
+</html>
+
+
